@@ -21,31 +21,6 @@ a{
     color: white;
 }
 
-img{
-    width: 75%;
-    height: 500px;   
-   display: flex;
-   align-items: flex-start;
-   border: 3px solid white;
-   
-}
-
-.rechts{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align:center;
-    width: 50%;
-    height: 500px;
-    margin: 0px;
-
-}
-
-.box1 {
-    display: flex;
-    flex-direction: row;
-    width:100%;
-    height:500px;
-}
 
 body{
     background-image: url("../IMAGES/g.gif");
@@ -54,27 +29,43 @@ body{
     align-content: stretch;
 }
 
-p{
+main {
+    display:flex;
+    justify-content: space-around;
+}
+
+#voetbal,#overmij,#music,#games,#links{
     background-color: darkblue;
     border: 3px solid white;
-}
-
-.slideshow{
-    width: 100%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 30%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
-#foto2,#foto3{
-    display: none;
-    height: 100%;
-    width: 75%;
-    border: 3px solid white;
-}
-
-#foto1{
+#fotoballie{
+    width: 400px;
+    height: 260px;
     display: flex;
     justify-content: center;
     border: 3px solid white;
 }
+
+#fifa{
+    width: 350px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+}
+.sii{
+    text-decoration: underline;
+    
+}
+
+
+
+
+
