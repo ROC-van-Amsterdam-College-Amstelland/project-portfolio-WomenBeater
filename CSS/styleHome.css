@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
 }
-#home,#over-mij,#vaardigheden,#nieuws,#contacten,#hub,#projecten{
+#home,#over-mij,#vaardigheden,#nieuws,#contacten,#hub,#projecten,#hub{
     color: white;   
     justify-content: space-around;
     background-color:darkblue;
@@ -17,9 +17,7 @@
     font-size: 20px;
 }
 
-a{
-    color: white;
-}
+
 
 img{
     width: 75%;
@@ -77,4 +75,9 @@ p{
     display: flex;
     justify-content: center;
     border: 3px solid white;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
 }
