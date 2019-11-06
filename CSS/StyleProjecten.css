@@ -68,7 +68,7 @@ main {
     color: white;
 }
 
-#vlag,#mondriaan {
+#vlag,#mondriaan,#java {
     height: 300px;
     width: 300px;
     
@@ -90,6 +90,10 @@ main {
 
 .projectmenu {
     display: inline;
+}
+
+p{
+    font-size: 20px;
 }
 
 
